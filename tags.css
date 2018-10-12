@@ -1,0 +1,9 @@
+h1{
+    font-size: 100px; color: blue;
+}
+p{
+    color: red;
+}
+img{
+    height: 1000px; width: 1000px; float: right;
+}
