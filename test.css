@@ -1,0 +1,91 @@
+body{
+    background-image: url("dark_wood.png")
+}
+
+#Header {
+    border: solid 8px black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+}
+
+#Header h1{
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #FFBC00;
+    font-weight: bold;
+    border: dotted;
+}
+
+a{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h3{
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion one";
+    margin-bottom: 0px;
+}
+
+p{
+    font-weight: bold;
+    color: white;
+    font-family: Arial;
+}
+
+#LeftNav{
+    border: solid 8px black;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    float: left;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#Content{
+    border: solid 8px black;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px;
+    direction: rtl;
+    -webkit-perspective: 100px; /* Safari 4-8 */
+    perspective: 100px;
+}
+
+#Footer{
+    border: solid 8px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    order: 2;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+img{
+    border: dotted;
+    border-color: red;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+div{
+    background-color: #8E41D5;
+}
